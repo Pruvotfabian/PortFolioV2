@@ -22,6 +22,7 @@
     background-color: #101214;
 }
 .position-titre{
+    text-align: center;
     padding: 5%;
     font-family: 'Anton', sans-serif;
     display: flex;
@@ -58,10 +59,12 @@
     flex-direction: column;
     color: #fff;
 }
-.block{
-    padding-bottom: 8%;
-    display: flex;
-    justify-content: space-around;
+.blockC{
+    display: inline-block;
+    margin: 4%;
+}
+.flex{
+    text-align: center;
 }
 .plus{
     margin-top: 5%;
@@ -78,4 +81,15 @@
 .plus:hover{
     background: rgba(68, 68, 68, 0.30);
     transition: 0.5s;
+}
+@media screen and
+(max-width: 720px){
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
 }

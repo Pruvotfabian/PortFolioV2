@@ -8,6 +8,7 @@
     width: 100%;
 }
 .position-texte{
+    text-align: center;
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: center;
@@ -17,6 +18,9 @@
     color: #fff;
 }
 .position-titre{
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
     font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: center;
@@ -32,13 +36,8 @@
     height: 70vh;
 }
 .block{
-    position: absolute;
-    top: -5%;
-    left: 12.5%;
-    height: 70vh;
-    width: 75%;
     background-color: #fff;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 .blocktexte{
     font-family: 'Montserrat', sans-serif;
@@ -62,17 +61,25 @@
     margin-top: 3%;
     width: 25vh;
     border-radius: 15px 15px 15px 15px;
+    transition: 0.5s;
 }
-
+.btn:hover{
+    background: #fff;
+    color: #101214;
+    border: 2px solid #101214;
+    transition: 0.5s;
+}
 .blockimg{
-    height: 100%;
-    width: 300px;
-    float: left;
-    margin-left: 3%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.blockimg img{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .competence{
     margin-top: 10%;
@@ -80,12 +87,22 @@
     justify-content: space-around;
     width: 100%;
 }
+.flex{
+    text-align: center;
+    
+}
 .containe{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 260px;
 }
+.blockC{
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
 .containe img{
     height: 130px;
 }
@@ -104,4 +121,21 @@
 .plus:hover{
     background: rgba(68, 68, 68, 0.30);
     transition: 0.5s;
+}
+
+@media screen and
+(max-width: 720px){
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .blockimg{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        flex-direction: column;
+
+    }
 }

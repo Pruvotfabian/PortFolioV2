@@ -8,9 +8,9 @@
 }
 .position-img{
     margin-top: 5vh;
-    height: 60vh;
 }
 .width{
+    margin-top: 5vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,7 +21,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 38vh;
     font-size: 2em;
     flex-direction: column;
     width: 50%;
@@ -43,8 +42,8 @@
     border: 2px solid #fff;
     color: #fff;
     cursor: pointer;
-    height: 15vh;
-    width: 50%;
+    height: 12vh;
+    width: 55%;
     border-radius: 35% 0% 35% 0%;
     transition: 0.6s;
 }
@@ -52,4 +51,32 @@
     background: #fff;
     color: #101214;
     transition: 0.6s;
+}
+@media screen and
+(max-width: 800px){
+    .position-img img{
+        height: 50vh;
+    }
+    .position-texte h1{
+        text-align: center;
+    }
+    .position-texte{
+        width: 70%;
+    }
+    .position-texte h2{
+        text-align: center;
+    }
+    .button{
+        height: auto;
+        width: 100%;
+    }
+}
+@media screen and
+(max-width: 400px){
+    .position-texte{
+        width: 90%;
+    }
+    .position-img img{
+        height: 43vh;
+    }
 }

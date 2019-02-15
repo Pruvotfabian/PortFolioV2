@@ -69,3 +69,17 @@ li {
     list-style: none;
     transition: 0.5s;
 }
+@media screen and
+(max-width: 625px){
+
+    .menu{
+        width: 55%;
+        left: -55%;
+    }
+    .navigations{
+        font-size: 2.5em;
+    }
+    .active.header{
+        left: 50%;
+    }
+}
