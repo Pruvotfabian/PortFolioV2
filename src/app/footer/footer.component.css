@@ -32,3 +32,6 @@ i:hover{
     color: rgba(255, 255, 255, 0.60);
     transition: 0.3s;
 }
+a{
+    color: #fff;
+}

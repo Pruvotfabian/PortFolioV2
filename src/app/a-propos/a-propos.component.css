@@ -7,6 +7,10 @@
     height: 80vh;
     width: 100%;
 }
+h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
 .position-texte{
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -16,6 +20,9 @@
     height: 80vh;
     font-size: 6em;
     color: #fff;
+}
+.position-texte h2{
+    font-family: 'Anton', sans-serif;
 }
 .position-titre{
     margin-bottom: 5%;
@@ -69,6 +76,7 @@
     border: 2px solid #101214;
     transition: 0.5s;
 }
+
 .blockimg{
     margin-left: 2%;
     margin-right: 2%;
@@ -117,6 +125,10 @@
     font-size: 1.6em;
     cursor: pointer;
     transition: 0.5s;
+}
+a{
+    color: #fff;
+    text-decoration: none;
 }
 .plus:hover{
     background: rgba(68, 68, 68, 0.30);
