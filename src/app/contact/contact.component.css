@@ -81,6 +81,16 @@
     color: #fff;
     cursor: pointer;
 }
+.sucess{
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin-top: 5%;
+    text-align: center;
+    background: #5cb85c;
+    border: 2px solid green;
+    color: green;
+    border-radius: 45px;
+}
 @media screen and
 (max-width: 460px){
     .forms{
@@ -97,5 +107,8 @@
     }
     .input{
         height: 55px;
+    }
+    .sucess{
+        width: 90%;
     }
 }

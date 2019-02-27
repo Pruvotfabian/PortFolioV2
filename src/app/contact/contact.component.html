@@ -19,6 +19,7 @@
         </div>
         <button class="button" type="submit" [disabled]="form.invalid">Envoyer</button> 
     </div>
+    <div *ngIf="submited" class="sucess"><h1>Message envoyé avec succés</h1></div>
   </div>
 </form>
 </section>

@@ -9,7 +9,9 @@ import { AngularFireDatabase } from 'angularfire2/database';
 })
 export class ContactComponent implements OnInit {
   form: FormGroup;
+  submited:boolean;
   constructor(private fb: FormBuilder, private af: AngularFireDatabase) {
+    this.submited = false;
     this.createForm();
   }
   ngOnInit() {
@@ -17,13 +19,15 @@ export class ContactComponent implements OnInit {
   createForm() {
     this.form = this.fb.group({
       name: ['', Validators.required ],
-      email: ['', Validators.required, Validators.email],
+      email: ['', Validators.required],
       message: ['', Validators.required],
     });
   }
   onSubmit() {
+    this.submited = true;
     const {name, email, message} = this.form.value;
     const date = Date();
+    
     let formRequest = { name, email, message, date };
     this.af.database.ref('/messages').push(formRequest);
     this.form.reset();
