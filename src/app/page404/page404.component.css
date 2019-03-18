@@ -1,0 +1,23 @@
+.position-titre{
+    padding: 5%;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #fff;
+}
+.backcolor{
+    position: relative;
+    width: 100%;
+    background-color: #101214;
+}
+.position-texte{
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #fff;
+}
