@@ -200,7 +200,7 @@ a{
         left: 0; 
         transition: 0.5s;
     }
-    .menuB.active{
+    .menuA.active{
         left: 0; 
         transition: 0.5s;
     }
