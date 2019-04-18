@@ -1,6 +1,6 @@
 .background{
     background-color: #101214;
-    background-image: url('../../../assets/image/fond2DO.jpeg');
+    background-image: url('../../../assets/image/fondEmpire.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
@@ -10,7 +10,7 @@
     padding: 5%;
     position: relative;
     width: 800px;
-    background-color: #101214a4;
+    background-color: #101214d5;
 }
 .position-titre{
     text-align: center;
@@ -119,4 +119,7 @@ a span:nth-child(4){
     .backcolor{  
         border-radius: 0;
     }
+}
+.concept{
+    text-align: center;
 }

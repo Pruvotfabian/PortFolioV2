@@ -15,6 +15,11 @@ import { ProjetSimplonCalaisComponent } from './projets/projet-simplon-calais/pr
 import { ProjetSimplonHdfComponent } from './projets/projet-simplon-hdf/projet-simplon-hdf.component';
 import { ProjetArcturusComponent } from './projets/projet-arcturus/projet-arcturus.component';
 import { ProjetTodoComponent } from './projets/projet-todo/projet-todo.component';
+import { ProjetEmpirev2Component } from './projets/projet-empirev2/projet-empirev2.component';
+import { ProjetBlogbosterComponent } from './projets/projet-blogboster/projet-blogboster.component';
+import { ProjetTurtleComponent } from './projets/projet-turtle/projet-turtle.component';
+import { ProjetStygeonComponent } from './projets/projet-stygeon/projet-stygeon.component';
+import { ProjetHarbingerComponent } from './projets/projet-harbinger/projet-harbinger.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -27,6 +32,11 @@ const routes: Routes = [
     { path: 'projet-simplon-hdf',  component: ProjetSimplonHdfComponent},
     { path: 'projet-arcturus',  component: ProjetArcturusComponent},
     { path: 'projet-2do',  component: ProjetTodoComponent},
+    { path: 'projet-turtle',  component: ProjetTurtleComponent},
+    { path: 'projet-harbinger',  component: ProjetHarbingerComponent},
+    { path: 'projet-stygeon',  component: ProjetStygeonComponent},
+    { path: 'projet-empireV2',  component: ProjetEmpirev2Component},
+    { path: 'projet-blogboster',  component: ProjetBlogbosterComponent},
     { path: 'mention',  component: MentionComponent},
     { path: 'contact', component: ContactComponent},
     { path: 'aPropos', component: AProposComponent},

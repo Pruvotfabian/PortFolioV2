@@ -28,6 +28,11 @@ import { ProjetSimplonCalaisComponent } from './projets/projet-simplon-calais/pr
 import { ProjetSimplonHdfComponent } from './projets/projet-simplon-hdf/projet-simplon-hdf.component';
 import { ProjetArcturusComponent } from './projets/projet-arcturus/projet-arcturus.component';
 import { ProjetTodoComponent } from './projets/projet-todo/projet-todo.component';
+import { ProjetEmpirev2Component } from './projets/projet-empirev2/projet-empirev2.component';
+import { ProjetBlogbosterComponent } from './projets/projet-blogboster/projet-blogboster.component';
+import { ProjetStygeonComponent } from './projets/projet-stygeon/projet-stygeon.component';
+import { ProjetTurtleComponent } from './projets/projet-turtle/projet-turtle.component';
+import { ProjetHarbingerComponent } from './projets/projet-harbinger/projet-harbinger.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +54,11 @@ import { ProjetTodoComponent } from './projets/projet-todo/projet-todo.component
     ProjetSimplonHdfComponent,
     ProjetArcturusComponent,
     ProjetTodoComponent,
+    ProjetEmpirev2Component,
+    ProjetBlogbosterComponent,
+    ProjetStygeonComponent,
+    ProjetTurtleComponent,
+    ProjetHarbingerComponent,
   
   ],
   imports: [

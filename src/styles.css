@@ -4,3 +4,15 @@
     padding: 0;
     
 }
+.chargement{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #101214;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+}
