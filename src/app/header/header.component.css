@@ -1,0 +1,85 @@
+.header{
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    z-index: 5;
+    transition: 0.5s;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background: #101214;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.menu{
+    position: fixed;
+    left: -30%;
+    height: 100%;
+    width: 30%;
+    background: #101214c9;
+    color: #fff;
+    transition: 0.5s;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.active.menu{
+    z-index: 4;
+    left:0%;
+    border-right: 2px solid #fff;
+    transition: 0.5s;
+}
+.active.header{
+    left: 28%;
+    transition: 0.5s;
+}
+.block.active{
+    transform: rotate(540deg);
+    border-radius: 50%;
+    background: #101214;
+    transition: 0.5s;
+}
+.navigations{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    transition: 0.5s;
+}
+ul li a{
+    
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none; 
+    transition: 0.5s;
+}
+li {
+    list-style: none;
+    transition: 0.5s;
+}
+@media screen and
+(max-width: 625px){
+
+    .menu{
+        width: 55%;
+        left: -55%;
+    }
+    .navigations{
+        font-size: 2.5em;
+    }
+    .active.header{
+        left: 50%;
+    }
+}

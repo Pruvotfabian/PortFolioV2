@@ -1,0 +1,25 @@
+<section class="background">
+  <div class="position-texte">
+          <h2>CONTACT</h2> 
+  </div>
+</section>
+<div class="position-texte"></div>
+<section class="backcolor">
+    <div class="position-titre">
+        <h1>Me Contacter</h1>
+</div> 
+<form  [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="block">
+    <div class="forms">
+        <input class="input" type="text" placeholder="Nom *" formControlName="name">
+        <input id="email" class="input" type="email" placeholder="Email *" formControlName="email">
+        <textarea class="textarea" placeholder="Message *" formControlName="message"></textarea>
+        <div class="loi">
+          * Champs Obligatoire. Voir les <a routerLink="../mention">Mention Légales</a>
+        </div>
+        <button class="button" type="submit" [disabled]="form.invalid">Envoyer</button> 
+    </div>
+    <div *ngIf="submited" class="sucess"><h1>Message envoyé avec succés</h1></div>
+  </div>
+</form>
+</section>
