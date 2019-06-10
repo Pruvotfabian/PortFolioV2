@@ -132,3 +132,9 @@ a span:nth-child(4){
 .concept{
     text-align: center;
 }
+@media screen and
+(max-width:1060px){
+    .poster{
+        width: auto;
+    }
+}

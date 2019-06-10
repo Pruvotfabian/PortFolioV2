@@ -6,6 +6,7 @@
     background-size: cover;
     width: 100%;
     height: 80vh;
+    animation: fondu 1.5s linear;
 }
 .position-texte{
     font-family: 'Anton', sans-serif;

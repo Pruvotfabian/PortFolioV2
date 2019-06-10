@@ -29,10 +29,16 @@
 }
 .background{
     background-color: #101214;
+    min-height: 100vh;
+    
+}
+.backImage{
     background-image: url('../../assets/image/fond.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fondu 1.5s linear;
 }
+
 .button{
     font-size: 1.5em;
     margin: 50px;

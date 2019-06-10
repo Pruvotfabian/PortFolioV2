@@ -35,6 +35,9 @@ import { ProjetTurtleComponent } from './projets/projet-turtle/projet-turtle.com
 import { ProjetHarbingerComponent } from './projets/projet-harbinger/projet-harbinger.component';
 import { WikipodiaComponent } from './projets/projet-wikipodia/wikipodia.component';
 import { ProjetNozamaComponent } from './projets/projet-nozama/projet-nozama.component';
+import { ProjetBotteComponent } from './projets/projet-botte/projet-botte.component';
+import { ProjetBeethovenComponent } from './projets/projet-beethoven/projet-beethoven.component';
+import { ProjetTheForgottenComponent } from './projets/projet-the-forgotten/projet-the-forgotten.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +66,9 @@ import { ProjetNozamaComponent } from './projets/projet-nozama/projet-nozama.com
     ProjetHarbingerComponent,
     WikipodiaComponent,
     ProjetNozamaComponent,
+    ProjetBotteComponent,
+    ProjetBeethovenComponent,
+    ProjetTheForgottenComponent,
   
   ],
   imports: [

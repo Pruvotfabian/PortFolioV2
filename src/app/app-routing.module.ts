@@ -22,6 +22,8 @@ import { ProjetStygeonComponent } from './projets/projet-stygeon/projet-stygeon.
 import { ProjetHarbingerComponent } from './projets/projet-harbinger/projet-harbinger.component';
 import { WikipodiaComponent } from './projets/projet-wikipodia/wikipodia.component';
 import { ProjetNozamaComponent } from './projets/projet-nozama/projet-nozama.component';
+import { ProjetBotteComponent } from './projets/projet-botte/projet-botte.component';
+import { ProjetBeethovenComponent } from './projets/projet-beethoven/projet-beethoven.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -41,6 +43,8 @@ const routes: Routes = [
     { path: 'projet-nozama', component: ProjetNozamaComponent},
     { path: 'projet-empireV2',  component: ProjetEmpirev2Component},
     { path: 'projet-blogboster',  component: ProjetBlogbosterComponent},
+    { path: 'projet-botte',  component: ProjetBotteComponent},
+    { path: 'projet-beethoven',  component: ProjetBeethovenComponent},
     { path: 'mention',  component: MentionComponent},
     { path: 'contact', component: ContactComponent},
     { path: 'aPropos', component: AProposComponent},
