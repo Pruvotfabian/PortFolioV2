@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
   }
   createForm() {
     this.form = this.fb.group({
-      name: ['', Validators.required ],
+      name: ['', Validators.required],
       email: ['', Validators.required],
       message: ['', Validators.required],
     });
@@ -27,7 +27,6 @@ export class ContactComponent implements OnInit {
     this.submited = true;
     const {name, email, message} = this.form.value;
     const date = Date();
-    
     let formRequest = { name, email, message, date };
     this.af.database.ref('/messages').push(formRequest);
     this.form.reset();

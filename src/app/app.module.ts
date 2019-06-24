@@ -38,6 +38,9 @@ import { ProjetNozamaComponent } from './projets/projet-nozama/projet-nozama.com
 import { ProjetBotteComponent } from './projets/projet-botte/projet-botte.component';
 import { ProjetBeethovenComponent } from './projets/projet-beethoven/projet-beethoven.component';
 import { ProjetTheForgottenComponent } from './projets/projet-the-forgotten/projet-the-forgotten.component';
+import { ProjetOverlordComponent } from './projets/projet-overlord/projet-overlord.component';
+import { ProjetSuprematieComponent } from './projets/projet-suprematie/projet-suprematie.component';
+import { ProjetEndgameComponent } from './projets/projet-endgame/projet-endgame.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +72,9 @@ import { ProjetTheForgottenComponent } from './projets/projet-the-forgotten/proj
     ProjetBotteComponent,
     ProjetBeethovenComponent,
     ProjetTheForgottenComponent,
+    ProjetOverlordComponent,
+    ProjetSuprematieComponent,
+    ProjetEndgameComponent,
   
   ],
   imports: [
