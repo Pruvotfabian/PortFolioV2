@@ -1,26 +1,15 @@
 .background{
     background-color: #101214;
-    /* background-image: url('../../../assets/image/fondSimplonhdf.jpeg');
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     padding: 5%;
 }
-.poster{
-    position: fixed;
-    width: 100%;
-    animation: fondu 1.5s linear;
-}
-.backcolor{  
-    left: -100%; 
+.backcolor{   
     border-radius: 75px;
     padding: 5%;
     position: relative;
     width: 800px;
-    background-color: #101214a4;
-}
-.backcolor.active{
-    left: 0%;
-    transition: 3s;
+    background-color: #101214d5;
 }
 .position-titre{
     text-align: center;

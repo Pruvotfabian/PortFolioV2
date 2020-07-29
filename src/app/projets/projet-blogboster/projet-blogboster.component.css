@@ -1,12 +1,14 @@
 .background{
     background-color: #101214;
-    /* background-repeat: no-repeat;
+    /* background-image: url('../../../assets/image/fondprojethistorika.jpg');
+    background-repeat: no-repeat;
     background-size: cover; */
     padding: 5%;
 }
 .poster{
     position: fixed;
     width: 100%;
+    animation: fondu 1.5s linear;
 }
 .backcolor{  
     left: -100%; 

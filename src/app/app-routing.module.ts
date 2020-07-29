@@ -27,6 +27,7 @@ import { ProjetBeethovenComponent } from './projets/projet-beethoven/projet-beet
 import { ProjetOverlordComponent } from './projets/projet-overlord/projet-overlord.component';
 import { ProjetSuprematieComponent } from './projets/projet-suprematie/projet-suprematie.component';
 import { ProjetEndgameComponent } from './projets/projet-endgame/projet-endgame.component';
+import { ProjetLegionComponent } from './projets/projet-legion/projet-legion.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -45,12 +46,13 @@ const routes: Routes = [
     { path: 'projet-wikipodia',  component: WikipodiaComponent},
     { path: 'projet-nozama', component: ProjetNozamaComponent},
     { path: 'projet-empireV2',  component: ProjetEmpirev2Component},
-    { path: 'projet-blogboster',  component: ProjetBlogbosterComponent},
+    { path: 'projet-historika',  component: ProjetBlogbosterComponent},
     { path: 'projet-botte',  component: ProjetBotteComponent},
     { path: 'projet-beethoven',  component: ProjetBeethovenComponent},
     { path: 'projet-overlord',  component: ProjetOverlordComponent},
     { path: 'projet-suprematie',  component: ProjetSuprematieComponent},
     { path: 'projet-end-game',  component: ProjetEndgameComponent},
+    { path: 'projet-legion',  component: ProjetLegionComponent},
     { path: 'mention',  component: MentionComponent},
     { path: 'contact', component: ContactComponent},
     { path: 'aPropos', component: AProposComponent},

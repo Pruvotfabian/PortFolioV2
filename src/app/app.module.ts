@@ -41,6 +41,7 @@ import { ProjetTheForgottenComponent } from './projets/projet-the-forgotten/proj
 import { ProjetOverlordComponent } from './projets/projet-overlord/projet-overlord.component';
 import { ProjetSuprematieComponent } from './projets/projet-suprematie/projet-suprematie.component';
 import { ProjetEndgameComponent } from './projets/projet-endgame/projet-endgame.component';
+import { ProjetLegionComponent } from './projets/projet-legion/projet-legion.component';
 
 @NgModule({
   declarations: [
@@ -75,6 +76,7 @@ import { ProjetEndgameComponent } from './projets/projet-endgame/projet-endgame.
     ProjetOverlordComponent,
     ProjetSuprematieComponent,
     ProjetEndgameComponent,
+    ProjetLegionComponent,
   
   ],
   imports: [

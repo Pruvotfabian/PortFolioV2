@@ -5,6 +5,7 @@
 .poster{
     position: fixed;
     width: 100%;
+    animation: fondu 1.5s linear;
 }
 .backcolor{   
     left: -100%;
